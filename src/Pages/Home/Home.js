@@ -5,8 +5,6 @@ import Meals from './Meals/Meals';
 const Home = () => {
     return (
         <div>
-            {/* <Banner/> */}
-
             <Meals />
         </div>
     );
