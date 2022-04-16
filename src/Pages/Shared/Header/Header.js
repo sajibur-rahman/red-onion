@@ -22,7 +22,7 @@ const Header = () => {
               <NavLink to="/cart">cart</NavLink>
             </li>
             <li className="mr-4">
-              { user ? <Button onClick={() => signOut(auth)} >sign out</Button> : 
+              { user ? <Button specificStyles={false} onClick={() => signOut(auth)} >sign out</Button> : 
                 <NavLink to="/login">Login</NavLink>
               }
             </li>

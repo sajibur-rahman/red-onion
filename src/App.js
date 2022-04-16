@@ -1,4 +1,5 @@
 import { Route, Routes } from "react-router-dom";
+import Banner from "./Pages/Home/Banner/Banner";
 import Breakfast from "./Pages/Home/Breakfast/Breakfast";
 import Home from "./Pages/Home/Home";
 import Meals from "./Pages/Home/Meals/Meals";
@@ -12,8 +13,10 @@ function App() {
     <div>
      <Header/>
      <main>
+       <Banner/>
        <Routes>
          <Route path="/" element={<Home/>}/>
+         
          <Route path="/*" element={<Meals/>}>
            <Route path="breakfast" element={<Breakfast/>}/>
            <Route path="launch" element={<Breakfast/>}/>

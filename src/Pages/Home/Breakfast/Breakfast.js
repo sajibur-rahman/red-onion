@@ -9,7 +9,7 @@ const Breakfast = () => {
         .then((data) => setBreakfasts(data));
     },[])
     return (
-        <div className='grid grid-cols-3'>
+        <div className='grid grid-cols-3 gap-5'>
             {
                 breakfasts.map((breakfast) => <Meal meal={breakfast}/>)
             }
