@@ -16,7 +16,6 @@ function App() {
        <Banner/>
        <Routes>
          <Route path="/" element={<Home/>}/>
-         
          <Route path="/*" element={<Meals/>}>
            <Route path="breakfast" element={<Breakfast/>}/>
            <Route path="launch" element={<Breakfast/>}/>
