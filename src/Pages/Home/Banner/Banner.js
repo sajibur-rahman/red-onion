@@ -13,7 +13,7 @@ const Banner = () => {
             name="search"
             id="search"
           />
-          <Button className="relative left-2">search</Button>
+          <Button>search</Button>
         </div>
       </div>
     </div>
